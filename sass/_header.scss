@@ -1,0 +1,26 @@
+/*header*/
+header {
+  height: 70px;
+  background-color: #ec715f;
+}
+
+.header_inner {
+  max-width: 1024px;
+}
+
+.logo_image img{
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  li {
+    a {
+      color: #fafafa;
+    }
+  }
+}

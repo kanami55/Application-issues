@@ -1,0 +1,23 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanami55/Application-issues.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanami55/Application-issues/issues"
+  },
+  "homepage": "https://github.com/kanami55/Application-issues#readme",
+  "devDependencies": {
+    "sass": "^1.49.10"
+  }
+}
