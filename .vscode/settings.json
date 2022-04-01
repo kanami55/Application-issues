@@ -1,3 +1,18 @@
+<<<<<<< HEAD
 {
   "dartsass.sassBinPath": "node_modules/sass/sass.js"
 }
+=======
+{
+  "dartsass.targetDirectory": "css/", //どのフォルダに出力するか
+  "dartsass.autoPrefixBrowsersList": [
+    //Autoprefixerの指定
+    "> 3% in JP",
+    "ie 11",
+    "android 4.4",
+    "last 1 versions"
+  ],
+  "dartsass.outputFormat": "cssonly",
+  "dartsass.disableSourceMap": true //cssの出力するフォーマット cssonly、minified、bothの３つから選べる
+}
+>>>>>>> 7ac964d9e4dc495f4433ef117c7be67ff757304a
