@@ -1,0 +1,28 @@
+ /*header*/
+  header {
+    height: 70px;
+    background-color: #ec715f;
+  }
+  
+  .header_logo {
+    height: 70px;
+  }
+
+  .header_inner {
+    max-width: 1024px;
+  }
+  
+  ul {
+    display: flex;
+    margin-left: auto;
+  }
+  li {
+    a{
+      color: #fafafa;
+      list-style: none;
+    }
+  }
+  
+  ul li:nth-child(n + 1) {
+    margin-left: 30px;
+  }
