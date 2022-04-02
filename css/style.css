@@ -90,15 +90,19 @@ li {
 .title {
   text-align: center;
   font-size: 32px;
+  padding-bottom: 8px;
+  position: relative;
 }
 .title::after {
+  position: absolute;
+  content: "";
   width: 70px;
   height: 3px;
-  color: #FC715F;
+  background-color: #FC715F;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 8px;
+  transform: translateX(-50%);
+  margin-top: 20px;
 }
 
 .content_text {
