@@ -5,19 +5,24 @@ header {
 }
 
 .header_inner {
-  max-width: 1024px;
+  width: 1024px;
+  display: flex;
 }
 
 .logo_image img {
-  width: 200px;
-  height: 60px;
-  font-size: 20px;
+  width: 150px;
+  height: auto;
+  font-size: 16px;
 }
 
 ul {
+  margin-left: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+ul li {
+  margin-right: 30px;
 }
 ul li a {
   color: #fafafa;
@@ -92,6 +97,86 @@ h1 {
   text-align: center;
   font-size: 20px;
   padding: 10px 0;
+}
+
+.profile {
+  background-color: #ECEFF1;
+}
+
+.profile_inner {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.profile_bottom {
+  display: flex;
+}
+
+.profile_left {
+  width: 512px;
+}
+
+.profile_left img {
+  display: flex;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile_right {
+  width: 512px;
+}
+
+.my_name,
+.my_skill {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.my_skill {
+  padding-top: 20px;
+}
+
+.contact_inner {
+  padding: 90px 0;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.contact_bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+.my_contact {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.sns_icon {
+  display: flex;
+}
+
+.fab {
+  font-size: 50px;
+}
+
+.fab > div:nth-child(1) {
+  margin-left: 20px;
+}
+
+footer {
+  height: 80px;
+  background-color: #EC715F;
+}
+
+.copyright {
+  text-align: center;
+  line-height: 80px;
+  color: #FAFAFA;
 }
 
 /*共通パーツ*/

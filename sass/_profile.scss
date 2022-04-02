@@ -1,0 +1,42 @@
+.profile {
+    background-color: #ECEFF1;
+}
+
+.profile_inner {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.profile_bottom {
+    display: flex;
+}
+
+.profile_left {
+    width: 512px;
+}
+
+.profile_left {
+    img {
+        display: flex;
+        margin: 0 auto;
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+.profile_right {
+    width: 512px;
+}
+
+.my_name,
+.my_skill {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.my_skill {
+    padding-top: 20px;
+}
