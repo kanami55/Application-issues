@@ -1,0 +1,28 @@
+.feature_inner {
+    padding: 90px 0;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.feature_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature_item {
+    width: 320px;
+    height: auto;
+}
+
+.fas {
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+}
+
+.item_title {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0;
+}
