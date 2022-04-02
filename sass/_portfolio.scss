@@ -1,0 +1,16 @@
+.portfolio_inner {
+    width: 920px;
+    margin: 90px auto;
+}
+
+.portfolio_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio_item img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
