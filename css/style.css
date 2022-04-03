@@ -43,6 +43,11 @@ ul li a {
   background-size: cover;
   height: 650px;
 }
+@media (max-width: 767px) {
+  .main_visual {
+    height: 50px;
+  }
+}
 
 h1 {
   text-align: center;
@@ -50,12 +55,22 @@ h1 {
   font-size: 64px;
   color: #FAFAFA;
 }
+@media (max-width: 767px) {
+  h1 {
+    font-size: 40px;
+  }
+}
 
 .main_visual_text {
   text-align: center;
   padding-top: 10px;
   font-size: 20px;
   color: #FAFAFA;
+}
+@media (max-width: 767px) {
+  .main_visual_text {
+    font-size: 18px;
+  }
 }
 
 .portfolio {
