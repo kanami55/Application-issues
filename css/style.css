@@ -24,12 +24,22 @@ header {
   height: auto;
   font-size: 16px;
 }
+@media (max-width: 767px) {
+  .logo_image img {
+    width: 100px;
+  }
+}
 
 ul {
   margin-left: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 767px) {
+  ul {
+    display: none;
+  }
 }
 ul li {
   margin-right: 30px;
@@ -45,7 +55,7 @@ ul li a {
 }
 @media (max-width: 767px) {
   .main_visual {
-    height: 50px;
+    background-image: url(../image/code.png);
   }
 }
 
@@ -82,11 +92,27 @@ h1 {
   margin: 0 auto;
   padding: 90px 0;
 }
+@media (max-width: 767px) {
+  .portfolio_inner {
+    width: 90%;
+  }
+}
 
 .portfolio_items {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .portfolio_items {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .img_none {
+    display: none;
+  }
 }
 
 .portfolio_item img {
@@ -100,11 +126,21 @@ h1 {
   width: 980px;
   margin: 0 auto;
 }
+@media (max-width: 767px) {
+  .feature_inner {
+    width: 90%;
+  }
+}
 
 .feature_flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .feature_flex {
+    display: block;
+  }
 }
 
 .feature_item {
@@ -117,11 +153,23 @@ h1 {
   font-size: 60px;
   justify-content: center;
 }
+@media (max-width: 767px) {
+  .fas {
+    display: block;
+    text-align: center;
+  }
+}
 
 .item_title {
   text-align: center;
   font-size: 20px;
   padding: 10px 0;
+}
+
+@media (max-width: 767px) {
+  .feature_margin {
+    margin-top: 10px;
+  }
 }
 
 .profile {
@@ -133,13 +181,28 @@ h1 {
   margin: 0 auto;
   padding: 90px 0;
 }
+@media (max-width: 767px) {
+  .profile_inner {
+    width: 90%;
+  }
+}
 
 .profile_bottom {
   display: flex;
 }
+@media (max-width: 767px) {
+  .profile_bottom {
+    display: block;
+  }
+}
 
 .profile_left {
   width: 512px;
+}
+@media (max-width: 767px) {
+  .profile_left {
+    width: 100%;
+  }
 }
 
 .profile_left img {
@@ -150,15 +213,32 @@ h1 {
   object-fit: cover;
   border-radius: 50%;
 }
+@media (max-width: 767px) {
+  .profile_left img {
+    display: block;
+  }
+}
 
 .profile_right {
   width: 512px;
+}
+@media (max-width: 767px) {
+  .profile_right {
+    width: 90%;
+  }
 }
 
 .my_name,
 .my_skill {
   font-size: 20px;
   padding-bottom: 5px;
+}
+@media (max-width: 767px) {
+  .my_name,
+.my_skill {
+    text-align: center;
+    padding-top: 20px;
+  }
 }
 
 .my_skill {
@@ -170,26 +250,53 @@ h1 {
   margin: 0 auto;
   width: 800px;
 }
+@media (max-width: 767px) {
+  .contact_inner {
+    width: 90%;
+  }
+}
 
 .contact_bottom {
   display: flex;
   justify-content: space-around;
+}
+@media (max-width: 767px) {
+  .contact_bottom {
+    display: block;
+  }
 }
 
 .my_contact {
   font-size: 20px;
   padding-bottom: 5px;
 }
+@media (max-width: 767px) {
+  .my_contact {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact_namber {
+    text-align: center;
+  }
+}
 
 .sns_icon {
   display: flex;
+}
+@media (max-width: 767px) {
+  .sns_icon {
+    text-align: center;
+    display: block;
+  }
 }
 
 .fab {
   font-size: 50px;
 }
 
-.fab > div:nth-child(1) {
+li:nth-child(1) {
   margin-left: 20px;
 }
 
@@ -247,4 +354,9 @@ li {
 .content_text {
   text-align: center;
   padding: 30px 0;
+}
+@media (max-width: 767px) {
+  .content_text br {
+    display: none;
+  }
 }

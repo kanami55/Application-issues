@@ -18,6 +18,9 @@ header {
   width: 150px;
   height: auto;
   font-size: 16px;
+  @media (max-width: 767px) {
+    width: 100px;
+  }
 }
 
 ul {
@@ -25,6 +28,9 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 767px) {
+    display: none;
+  }
   li {
     margin-right: 30px;
     a {
