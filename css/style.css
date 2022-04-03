@@ -3,10 +3,20 @@ header {
   height: 70px;
   background-color: #ec715f;
 }
+@media (max-width: 767px) {
+  header {
+    height: 50px;
+  }
+}
 
 .header_inner {
   width: 1024px;
   display: flex;
+}
+@media (max-width: 767px) {
+  .header_inner {
+    width: 90%;
+  }
 }
 
 .logo_image img {
