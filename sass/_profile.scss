@@ -6,14 +6,23 @@
     width: 1024px;
     margin: 0 auto;
     padding: 90px 0;
+    @media (max-width: 767px) {
+        width: 90%;
+    }
 }
 
 .profile_bottom {
     display: flex;
+    @media (max-width: 767px) {
+        display: block;
+    }
 }
 
 .profile_left {
     width: 512px;
+    @media (max-width: 767px) {
+        width: 100%;
+    }
 }
 
 .profile_left {
@@ -24,17 +33,27 @@
         height: 250px;
         object-fit: cover;
         border-radius: 50%;
+        @media (max-width: 767px) {
+            display: block;
+        }
     }
 }
 
 .profile_right {
     width: 512px;
+    @media (max-width: 767px) {
+        width: 90%;
+    }
 }
 
 .my_name,
 .my_skill {
     font-size: 20px;
     padding-bottom: 5px;
+    @media (max-width: 767px) {
+        text-align: center;
+        padding-top: 20px;
+    }
 }
 
 .my_skill {

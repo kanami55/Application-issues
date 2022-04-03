@@ -1,17 +1,26 @@
 header {
   height: 70px;
   background-color: #ec715f;
-}
 
+  @media (max-width: 767px) {
+    height: 50px;
+  }
+}
 .header_inner {
   width: 1024px;
   display: flex;
+  @media (max-width: 767px) {
+    width: 90%;
+  }
 }
 
 .logo_image img{
   width: 150px;
   height: auto;
   font-size: 16px;
+  @media (max-width: 767px) {
+    width: 100px;
+  }
 }
 
 ul {
@@ -19,6 +28,9 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 767px) {
+    display: none;
+  }
   li {
     margin-right: 30px;
     a {

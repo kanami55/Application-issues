@@ -2,6 +2,9 @@
     background-image: url(../image/mv.png);
     background-size: cover;
     height: 650px;
+    @media (max-width: 767px) {
+        background-image: url(../image/code.png);
+    }
 }
 
 h1 {
@@ -9,6 +12,9 @@ h1 {
     padding-top: 200px;
     font-size: 64px;
     color: #FAFAFA;
+    @media (max-width: 767px) {
+        font-size: 40px;
+    }
 }
 
 .main_visual_text {
@@ -16,4 +22,7 @@ h1 {
     padding-top: 10px;
     font-size: 20px;
     color: #FAFAFA;
+    @media (max-width: 767px) {
+        font-size: 18px;
+    }
 }

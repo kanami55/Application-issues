@@ -2,26 +2,46 @@
     padding: 90px 0;
     margin: 0 auto;
     width: 800px;
+    @media (max-width: 767px) {
+        width: 90%;
+    }
 }
 
 .contact_bottom {
     display: flex;
     justify-content: space-around;
+    @media (max-width: 767px) {
+        display: block;
+    }
 }
 
 .my_contact {
     font-size: 20px;
     padding-bottom: 5px;
+    @media (max-width: 767px) {
+        text-align: center;
+    }
+}
+
+.contact_namber {
+    @media (max-width: 767px) {
+        text-align: center;
+    }
 }
 
 .sns_icon {
     display: flex;
+    @media (max-width: 767px) {
+        text-align: center;
+        display: block;
+    }
 }
 
 .fab {
     font-size: 50px;
 }
-.fab>div:nth-child(1) {
+
+li:nth-child(1) {
     margin-left: 20px;
 }
 
