@@ -17,11 +17,22 @@
         <div class="header_inner">
             <div class="logo_image"><img src="./image/logo.png"></div>
             <ul>
-                <li><a href="portfolio">Portfolio</a></li>
+                <li><a href="portfolio" id="mouse">Portfolio</a></li>
                 <li><a href="feature">Feature</a></li>
                 <li><a href="profile">Profile</a></li>
                 <li><a href="contact">Contact</a></li>
             </ul>
+            <script>
+                const mouse = document.getElementById('mouse');
+                    //on
+                    mouse.addEventListener('mouseenter', () => {
+                        mouse.style.color = "black";
+                    }, false);
+                    //off
+                    mouse.addEventListener('mouseleave', () => {
+                        mouse.style.color = "white"
+                    }, false);
+            </script>
 
             <!--ハンバーガーメニュー-->
             <div class="hamburger_menu">
