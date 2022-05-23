@@ -30,21 +30,21 @@ header {
   }
 }
 
-ul {
+.navbar {
   margin-left: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 @media (max-width: 767px) {
-  ul {
+  .navbar {
     display: none;
   }
 }
-ul li {
+.navbar .navbar_item {
   margin-right: 30px;
 }
-ul li a {
+.navbar .navbar_item a {
   color: #fafafa;
 }
 
@@ -376,10 +376,6 @@ a {
 ul,
 li {
   list-style: none;
-}
-
-ul li {
-  margin-right: 0;
 }
 
 ul li:nth-child(1) {
