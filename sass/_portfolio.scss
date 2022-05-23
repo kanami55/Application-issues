@@ -13,10 +13,18 @@
 .portfolio_items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    //justify-content: space-between;
     @media (max-width: 767px) {
         display: block;
     }
+}
+
+.portfolio_item:nth-child(3n+1) {
+    margin-right: 10px;
+}
+
+.portfolio_item:nth-child(3n+2) {
+    margin-right: 10px;
 }
 
 .img_none {
