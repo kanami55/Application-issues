@@ -30,21 +30,21 @@ header {
   }
 }
 
-ul {
+.navbar {
   margin-left: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 @media (max-width: 767px) {
-  ul {
+  .navbar {
     display: none;
   }
 }
-ul li {
+.navbar .navbar_item {
   margin-right: 30px;
 }
-ul li a {
+.navbar .navbar_item a {
   color: #fafafa;
 }
 
@@ -139,12 +139,19 @@ h1 {
 .portfolio_items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 @media (max-width: 767px) {
   .portfolio_items {
     display: block;
   }
+}
+
+.portfolio_item:nth-child(3n+1) {
+  margin-right: 10px;
+}
+
+.portfolio_item:nth-child(3n+2) {
+  margin-right: 10px;
 }
 
 @media (max-width: 767px) {
@@ -369,6 +376,10 @@ a {
 ul,
 li {
   list-style: none;
+}
+
+ul li:nth-child(1) {
+  margin-left: 0;
 }
 
 .title {
